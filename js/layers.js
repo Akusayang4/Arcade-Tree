@@ -26,17 +26,20 @@ addLayer("t", {
     ],
     layerShown(){return true}
 })
-upgrades: 
+upgrades: {
     11; 
         title: "Double the Points.",
         description; "x2 point gain",
         cost; new Decimal(2)
-        12; 
+}
+        {12; 
         title: "More Points!",
         description; "x1.5 point gain",
         cost; new Decimal(3)
-        13; 
+        }
+        {13; 
         title: "Triple, Not Double",
         description; "3x point gain",
         cost; new Decimal(5)
         unlocked(Decimal(5))
+        }
