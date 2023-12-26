@@ -75,7 +75,6 @@ function maxTickLength() {
 
 // Use this if you need to undo inflation from an older version. If the version is older than the version that fixed the issue,
 // you can cap their current resources with this.
-function FixOldSave(oldVersion: any): any
 if (hasUpgrade('t', 11)) gain = gain.times(2);
 if (hasUpgrade('t', 12)) gain = gain.times(1.5);
-if (hasUpgrade('t', 13)) gain = gain.times(3);
+if (hasUpgrade('t', 13)) gain = gain.times(3)
