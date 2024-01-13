@@ -41,5 +41,4 @@ upgrades: {
         title: "Triple, Not Double",
         description; "3x point gain",
         cost; new Decimal(5)
-        unlocked(Decimal(5))
         }
